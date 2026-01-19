@@ -119,11 +119,15 @@ public class ProductController : Controller
         return RedirectToAction(nameof(Index));
     }
 
+
     // Helper: populate category dropdown
     private void PopulateDropdowns()
     {
         var categories = _context.Category.ToList();
         ViewBag.Categories = new SelectList(categories, "Id", "Name");
+        
+        var suppliers = _context.Supplier.ToList();
+        ViewBag.Suppliers = new SelectList(suppliers, "Id", "Name");
     }
 
     private bool ProductExists(int id)
