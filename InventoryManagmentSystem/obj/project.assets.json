@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/subhashismollick/Projects/Class/InventoryManagmentSystem/InventoryManagmentSystem/InventoryManagmentSystem.csproj",
+      "projectUniqueName": "/Users/subhashismollick/Projects/Class/Project/inventory_management_system/InventoryManagmentSystem/InventoryManagmentSystem.csproj",
       "projectName": "InventoryManagmentSystem",
-      "projectPath": "/Users/subhashismollick/Projects/Class/InventoryManagmentSystem/InventoryManagmentSystem/InventoryManagmentSystem.csproj",
+      "projectPath": "/Users/subhashismollick/Projects/Class/Project/inventory_management_system/InventoryManagmentSystem/InventoryManagmentSystem.csproj",
       "packagesPath": "/Users/subhashismollick/.nuget/packages/",
-      "outputPath": "/Users/subhashismollick/Projects/Class/InventoryManagmentSystem/InventoryManagmentSystem/obj/",
+      "outputPath": "/Users/subhashismollick/Projects/Class/Project/inventory_management_system/InventoryManagmentSystem/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/subhashismollick/.nuget/NuGet/NuGet.Config"
