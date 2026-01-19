@@ -7,10 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "InventoryManagmentSystem/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Tools": "10.0.2"
+        },
         "runtime": {
           "InventoryManagmentSystem.dll": {}
         }
-      }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/10.0.2": {}
     }
   },
   "libraries": {
@@ -18,6 +22,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore.Tools/10.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q7s7zCjEikOn4e7yS7kMPm3xkKR7CdfUhmN/sdFsKLslvS/iGS8zQUROvZRkbxRISA2SJ6sfho0cX8F8lo1khQ==",
+      "path": "microsoft.entityframeworkcore.tools/10.0.2",
+      "hashPath": "microsoft.entityframeworkcore.tools.10.0.2.nupkg.sha512"
     }
   }
 }

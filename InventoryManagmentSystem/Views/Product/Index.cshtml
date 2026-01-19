@@ -1,20 +1,34 @@
 ﻿@model IEnumerable<InventoryManagmentSystem.Models.Product.Product>
+
 <h2>Products</h2>
-<a asp-action="">Add New Product</a>
-<table border="1">
+<p>
+    <a class="btn btn-primary" asp-action="Create">Add New Product</a>
+</p>
+<table class="table table-bordered">
+    <thead>
     <tr>
         <th>Name</th>
-        <th>Quantity</th>
         <th>Description</th>
         <th>Price</th>
+        <th>CategoryId</th>
+        <th>Quantity</th>
+        <th>Actions</th>
     </tr>
-    @foreach (var item in Model)
+    </thead>
+    <tbody>
+    @foreach (var product in Model)
     {
         <tr>
-            <td>@item.Name</td>
-            <td>@item.Quantity</td>
-            <td>@item.Description</td>
-            <td>@item.Price</td>
+            <td>@product.Name</td>
+            <td>@product.Description</td>
+            <td>@product.Price.ToString("C")</td>
+            <td>@product.CategoryId</td>
+            <td>@product.Quantity</td>
+            <td>
+                <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@product.Id">Edit</a>
+                <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+            </td>
         </tr>
     }
+    </tbody>
 </table>

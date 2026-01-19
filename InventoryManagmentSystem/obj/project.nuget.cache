@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SJvzfD/O4bU=",
+  "dgSpecHash": "wb6Fnw4kL5o=",
   "success": true,
   "projectFilePath": "/Users/subhashismollick/Projects/Class/Project/inventory_management_system/InventoryManagmentSystem/InventoryManagmentSystem.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/subhashismollick/.nuget/packages/microsoft.entityframeworkcore.tools/10.0.2/microsoft.entityframeworkcore.tools.10.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
